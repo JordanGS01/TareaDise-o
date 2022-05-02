@@ -1,0 +1,12 @@
+
+.MainPageContainer{
+    margin-left: 19%;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+}
+
+.CategoriesCarousel{
+    display: flex;
+}
+

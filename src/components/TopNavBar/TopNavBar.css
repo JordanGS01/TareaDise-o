@@ -1,0 +1,77 @@
+.TopNavBarContainer {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  position: fixed;
+}
+.TopNavBarContainer img {
+  width: 16px;
+}
+.TopNavBarContainer button:hover {
+  border: solid;
+  border-width: 1px;
+  border-color: rgba(5, 5, 5, 0.75);
+}
+
+.SmallButton {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: #61bdff;
+}
+.LinkSmallButtons{
+  width: 5%;
+  height: 40px;
+  text-decoration: none;
+}
+
+.SearchBarContainer {
+  width: 80%;
+  background-color: #99eeff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SearchBar--Input {
+  border-right: none;
+  border: rgba(5, 5, 5, 0.75);
+  border-radius: 5px 0px 0px 5px;
+  background-color: rgb(235, 235, 235);
+  caret-color: rgb(51, 51, 51);
+  text-align: left;
+  color: rgb(51, 51, 51);
+  height: 50%;
+  width: 70%;
+  font-size: 14px;
+}
+.SearchBar--Input::placeholder {
+  color: rgb(170, 170, 170);
+}
+.SearchBar--Input:focus {
+  border: rgb(0, 153, 255);
+}
+
+.SearchButton {
+  width: 10%;
+  height: 55%;
+
+  border: red;
+  border-left: none;
+  background-color: rgb(235, 235, 235);
+  border-radius: 0px 5px 5px 0px;
+}
+.SearchButton img {
+  text-align: right;
+}
+
+.LinkShoppingCartButtons{
+  width: 10%;
+}
+.ShoppingCartPageButton {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: #61bdff;
+}

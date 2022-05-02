@@ -1,0 +1,17 @@
+.categorieDisplayItem{
+    width: 30%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
+    text-decoration: none;
+}
+
+.CDImg{
+    width: 70%;
+}
+
+.CDtext{
+    font-size: 20px;
+}

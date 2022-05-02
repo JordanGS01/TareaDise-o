@@ -1,0 +1,12 @@
+.LeftNavBarContainer{
+    width: 18%;
+    height: 94%;
+    margin-top: 40px;
+    background-color: #E3E3E3;
+    position: fixed;
+}
+
+.LinkCategorie{
+    text-decoration: none;
+    width: 100%;
+}

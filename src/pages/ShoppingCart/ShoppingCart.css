@@ -1,0 +1,41 @@
+.ShoppingCartContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20%;
+    margin-top: 40px;
+    width: 100%;    
+}
+
+.SH-BuyBar{
+    display: flex;
+}
+
+.SH-comprar{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.SH-TitlesBar{
+    width: 70%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    background-color: #E3E3E3;
+}
+
+.SH-TitlesBar-Name{
+    width: 40%;
+}
+
+.SH-TitlesBar-Cant{
+    width: 10%;
+}
+
+.SH-TitlesBar-Price{
+    width: 25%;
+}
+
+.SH-TitlesBar-Action{
+    width: 10%;
+}

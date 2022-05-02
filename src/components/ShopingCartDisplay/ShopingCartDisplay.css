@@ -1,0 +1,30 @@
+.ShopingCartElementDisplayContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SCE-Container{
+    width: 70%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    background-color: #E3E3E3;
+}
+
+.SCE-Name{
+    width: 40%;
+}
+
+.SCE-Cant{
+    width: 10%;
+}
+
+.SCE-Price{
+    width: 25%;
+}
+
+.SCE-Eliminar{
+    width: 10%;
+}
